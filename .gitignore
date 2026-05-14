@@ -1,0 +1,33 @@
+# Segredos — nunca versionar
+.env
+
+# Bancos de dados gerados (recriar com gerar_bancos.py)
+*.db
+
+# CSVs brutos da ANEEL (arquivos grandes — baixar da fonte)
+dec-fec/indicadores-continuidade-coletivos-2020-2029.csv
+dec-fec/indicadores-continuidade-coletivos-compensacao-2020-2029.csv
+dec-fec/Continuidade_Bruto_Coelba.csv
+dec-fec/Compensacao_Bruto_Coelba.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# GeoJSON duplicado (usar apenas o da raiz)
+dashboard/alimentador.geojson
+
+# OS
+Thumbs.db
+.DS_Store
